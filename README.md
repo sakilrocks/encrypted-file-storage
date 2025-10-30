@@ -1,4 +1,4 @@
-# encrypted-file-storage
+# secure-store
 
 A C++17 command line tool that encrypts and decrypts files using *AES-256-CBC* encryption with OpenSSL.   
 It provides a simple way to securely store files locally.
@@ -15,7 +15,7 @@ It provides a simple way to securely store files locally.
 
 ## Project Structure
 ```
-encrypted-file-storage/
+secure-store/
 ├── include/
 │   ├── crypto_utils.hpp     # encryption/decryption functions
 │   └── file_utils.hpp       # file I/O helpers
